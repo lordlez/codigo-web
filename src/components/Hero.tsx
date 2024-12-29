@@ -2,21 +2,29 @@ import React from "react";
 import { ChevronDown } from "lucide-react";
 
 const Hero = () => {
+  const HERO_TITLE = {
+    main: "Desarrollo Web",
+    sub: "Profesional y Creativo",
+  };
+
+  const HERO_DESCRIPTION =
+    "Transformo ideas en experiencias digitales únicas. Especializado en desarrollo web moderno, diseño responsivo y soluciones personalizadas para tu negocio";
+
+  const HERO_BUTTON = {
+    contact: "Contáctame",
+    portfolio: "Ver Portfolio",
+  };
   return (
     <section id="inicio" className="pt-20 lg:pt-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-center lg:justify-between">
           <div className="lg:w-1/2">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-              <span className="block">Desarrollo Web</span>
-              <span className="block text-indigo-600">
-                Profesional y Creativo
-              </span>
+              <span className="block">{HERO_TITLE.main}</span>
+              <span className="block text-indigo-600">{HERO_TITLE.sub}</span>
             </h1>
             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              Transformo ideas en experiencias digitales únicas. Especializado
-              en desarrollo web moderno, diseño responsivo y soluciones
-              personalizadas para tu negocio.
+              {HERO_DESCRIPTION}
             </p>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-start">
               <div className="rounded-md shadow">
@@ -24,7 +32,7 @@ const Hero = () => {
                   href="#contacto"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                 >
-                  Contáctame
+                  {HERO_BUTTON.contact}
                 </a>
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -32,7 +40,7 @@ const Hero = () => {
                   href="#portfolio"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
-                  Ver Portfolio
+                  {HERO_BUTTON.portfolio}
                 </a>
               </div>
             </div>
