@@ -1,18 +1,14 @@
-import React from "react";
-
-// Estos son los componentes que van a componer la página
-// Falta crearlos
-
 function App() {
   return (
-    <div>
+    <>
+      <h1>Titulo</h1>
       {/* <Navbar />
       <Hero />
       <Services />
       <Portfolio />
       <Contact />
       <Footer /> */}
-    </div>
+    </>
   );
 }
 
