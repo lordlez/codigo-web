@@ -24,6 +24,12 @@ const Navbar = () => {
               Inicio
             </a>
             <a
+              href="#about"
+              className="text-gray-700 hover:text-indigo-600 nav-link"
+            >
+              Sobre Mi
+            </a>
+            <a
               href="#servicios"
               className="text-gray-700 hover:text-indigo-600 nav-link"
             >

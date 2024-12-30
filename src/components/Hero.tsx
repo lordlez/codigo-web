@@ -15,7 +15,7 @@ const Hero = () => {
     portfolio: "Ver Portfolio",
   };
   return (
-    <section id="inicio" className="pt-20 lg:pt-28">
+    <section id="inicio" className="pt-20 lg:pt-28 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-center lg:justify-between">
           <div className="lg:w-1/2">
