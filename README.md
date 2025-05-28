@@ -28,7 +28,3 @@ Para construir este sitio web de vanguardia, he utilizado un stack tecnológico 
 Esta combinación me permite desarrollar un sitio web performante, escalable y con un diseño visualmente impactante.
 
 ---
-
-<p align="center">
-  💼 ¡Impulsando el futuro digital! 💼
-</p>
