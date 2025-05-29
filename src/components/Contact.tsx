@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
               ¡Gracias por tu mensaje!
             </h2>
             <p className="mt-4 text-xl text-gray-500">
-              Me pondré en contacto contigo pronto.
+              Nos pondremos en contacto contigo pronto.
             </p>
           </div>
         </div>
