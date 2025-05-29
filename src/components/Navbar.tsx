@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Code2, Menu, X } from "lucide-react";
 import "./Navbar.css";
 
@@ -27,7 +27,7 @@ const Navbar = () => {
               href="#about"
               className="text-gray-700 hover:text-indigo-600 nav-link"
             >
-              Sobre Mi
+              Nosotros
             </a>
             <a
               href="#servicios"
@@ -39,7 +39,7 @@ const Navbar = () => {
               href="#portfolio"
               className="text-gray-700 hover:text-indigo-600 nav-link"
             >
-              Portfolio
+              Nuestros Clientes
             </a>
             <a
               href="#contacto"

@@ -1,4 +1,3 @@
-import React from "react";
 import { ChevronDown } from "lucide-react";
 
 const Hero = () => {
@@ -8,11 +7,11 @@ const Hero = () => {
   };
 
   const HERO_DESCRIPTION =
-    "Transformo ideas en experiencias digitales únicas. Especializado en desarrollo web moderno, diseño responsivo y soluciones personalizadas para tu negocio";
+    "Transformamos ideas en experiencias digitales únicas. Especializado en desarrollo web moderno, diseño responsivo y soluciones personalizadas para tu negocio";
 
   const HERO_BUTTON = {
     contact: "Contáctame",
-    portfolio: "Ver Portfolio",
+    clients: "Ver Clientes",
   };
   return (
     <section id="inicio" className="pt-20 lg:pt-28 bg-gray-50">
@@ -40,7 +39,7 @@ const Hero = () => {
                   href="#portfolio"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                 >
-                  {HERO_BUTTON.portfolio}
+                  {HERO_BUTTON.clients}
                 </a>
               </div>
             </div>
